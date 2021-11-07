@@ -1,0 +1,95 @@
+.back-btn {
+  background-color: antiquewhite;
+  padding: 0.5rem 1.2rem;
+  color: brown;
+  font-weight: bold;
+  font-family: "MedievalSharp", cursive;
+  letter-spacing: 0.4rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.back-btn:hover {
+  opacity: 1;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  text-align: center;
+  font-weight: bold;
+  color: brown;
+  max-width: 40%;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+
+.task-item {
+  margin: 0.3rem;
+}
+
+.difficulty {
+  background-color: lightcoral;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.description {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.reward {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.gold {
+  color: darkgreen;
+}
+
+.start {
+  background-color: antiquewhite;
+  padding: 0.5rem;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "MedievalSharp", cursive;
+  letter-spacing: 0.4rem;
+  color: brown;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: darksalmon;
+}
+
+.success-modal {
+  color: green;
+}
+
+.fail-modal {
+  color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+  .task {
+    max-width: 80%;
+  }
+}

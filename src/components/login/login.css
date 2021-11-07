@@ -1,0 +1,39 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 3rem auto;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 1rem;
+  outline: none;
+  font-family: "MedievalSharp", cursive;
+}
+
+input[type="submit"] {
+  background-color: antiquewhite;
+  padding: 1rem;
+  color: brown;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-family: "MedievalSharp", cursive;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 1;
+}
+
+input[type="submit"]:active {
+  margin-top: 0.1rem;
+}
